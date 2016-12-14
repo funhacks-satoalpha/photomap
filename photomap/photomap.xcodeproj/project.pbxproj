@@ -16,6 +16,7 @@
 		74710BF41E00579B0085E242 /* photomapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74710BF31E00579B0085E242 /* photomapUITests.swift */; };
 		74BEB3B31E00D7970070E324 /* PhotoMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BEB3B21E00D7970070E324 /* PhotoMapViewController.swift */; };
 		74BEB3B61E00D7E60070E324 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BEB3B51E00D7E60070E324 /* MapKit.framework */; };
+		74BEB3B81E00E14E0070E324 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BEB3B71E00E14E0070E324 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		74710BF51E00579B0085E242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74BEB3B21E00D7970070E324 /* PhotoMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoMapViewController.swift; sourceTree = "<group>"; };
 		74BEB3B51E00D7E60070E324 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		74BEB3B71E00E14E0070E324 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				74710BD31E00579B0085E242 /* AppDelegate.swift */,
 				74710BD51E00579B0085E242 /* ViewController.swift */,
 				74710BD71E00579B0085E242 /* Main.storyboard */,
+				74BEB3B71E00E14E0070E324 /* CameraViewController.swift */,
 				74710BDA1E00579B0085E242 /* Assets.xcassets */,
 				74710BDC1E00579B0085E242 /* LaunchScreen.storyboard */,
 				74710BDF1E00579B0085E242 /* Info.plist */,
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74BEB3B31E00D7970070E324 /* PhotoMapViewController.swift in Sources */,
+				74BEB3B81E00E14E0070E324 /* CameraViewController.swift in Sources */,
 				74710BD61E00579B0085E242 /* ViewController.swift in Sources */,
 				74710BD41E00579B0085E242 /* AppDelegate.swift in Sources */,
 			);
