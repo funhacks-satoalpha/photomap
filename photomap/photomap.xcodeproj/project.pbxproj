@@ -14,6 +14,8 @@
 		74710BDE1E00579B0085E242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74710BDC1E00579B0085E242 /* LaunchScreen.storyboard */; };
 		74710BE91E00579B0085E242 /* photomapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74710BE81E00579B0085E242 /* photomapTests.swift */; };
 		74710BF41E00579B0085E242 /* photomapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74710BF31E00579B0085E242 /* photomapUITests.swift */; };
+		74BEB3B31E00D7970070E324 /* PhotoMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BEB3B21E00D7970070E324 /* PhotoMapViewController.swift */; };
+		74BEB3B61E00D7E60070E324 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BEB3B51E00D7E60070E324 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		74710BEF1E00579B0085E242 /* photomapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = photomapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74710BF31E00579B0085E242 /* photomapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photomapUITests.swift; sourceTree = "<group>"; };
 		74710BF51E00579B0085E242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74BEB3B21E00D7970070E324 /* PhotoMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoMapViewController.swift; sourceTree = "<group>"; };
+		74BEB3B51E00D7E60070E324 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74BEB3B61E00D7E60070E324 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				74710BE71E00579B0085E242 /* photomapTests */,
 				74710BF21E00579B0085E242 /* photomapUITests */,
 				74710BD11E00579B0085E242 /* Products */,
+				74BEB3B41E00D7E60070E324 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +109,7 @@
 				74710BDA1E00579B0085E242 /* Assets.xcassets */,
 				74710BDC1E00579B0085E242 /* LaunchScreen.storyboard */,
 				74710BDF1E00579B0085E242 /* Info.plist */,
+				74BEB3B21E00D7970070E324 /* PhotoMapViewController.swift */,
 			);
 			path = photomap;
 			sourceTree = "<group>";
@@ -123,6 +130,14 @@
 				74710BF51E00579B0085E242 /* Info.plist */,
 			);
 			path = photomapUITests;
+			sourceTree = "<group>";
+		};
+		74BEB3B41E00D7E60070E324 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74BEB3B51E00D7E60070E324 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74BEB3B31E00D7970070E324 /* PhotoMapViewController.swift in Sources */,
 				74710BD61E00579B0085E242 /* ViewController.swift in Sources */,
 				74710BD41E00579B0085E242 /* AppDelegate.swift in Sources */,
 			);
@@ -505,6 +521,7 @@
 				74710BFA1E00579B0085E242 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74710BFB1E00579B0085E242 /* Build configuration list for PBXNativeTarget "photomapTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				74710BFD1E00579B0085E242 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74710BFE1E00579B0085E242 /* Build configuration list for PBXNativeTarget "photomapUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				74710C001E00579B0085E242 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
