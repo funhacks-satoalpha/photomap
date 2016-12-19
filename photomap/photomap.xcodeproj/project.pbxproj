@@ -136,12 +136,12 @@
 			children = (
 				74710BD31E00579B0085E242 /* AppDelegate.swift */,
 				74710BD51E00579B0085E242 /* ViewController.swift */,
-				74710BD71E00579B0085E242 /* Main.storyboard */,
 				74BEB3B71E00E14E0070E324 /* CameraViewController.swift */,
+				74BEB3B21E00D7970070E324 /* PhotoMapViewController.swift */,
+				74710BD71E00579B0085E242 /* Main.storyboard */,
 				74710BDA1E00579B0085E242 /* Assets.xcassets */,
 				74710BDC1E00579B0085E242 /* LaunchScreen.storyboard */,
 				74710BDF1E00579B0085E242 /* Info.plist */,
-				74BEB3B21E00D7970070E324 /* PhotoMapViewController.swift */,
 			);
 			path = photomap;
 			sourceTree = "<group>";
